@@ -13,6 +13,7 @@
 		BA593E911D0C830700C2EC1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA593E8F1D0C830700C2EC1C /* Main.storyboard */; };
 		BA593E931D0C830700C2EC1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA593E921D0C830700C2EC1C /* Assets.xcassets */; };
 		BA593E961D0C830700C2EC1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA593E941D0C830700C2EC1C /* LaunchScreen.storyboard */; };
+		BA593E9F1D0C861C00C2EC1C /* PalindromDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = BA593E9E1D0C861C00C2EC1C /* PalindromDetector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BA593E921D0C830700C2EC1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA593E951D0C830700C2EC1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA593E971D0C830700C2EC1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA593E9D1D0C861C00C2EC1C /* PalindromDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PalindromDetector.h; sourceTree = "<group>"; };
+		BA593E9E1D0C861C00C2EC1C /* PalindromDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PalindromDetector.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				BA593E891D0C830700C2EC1C /* AppDelegate.h */,
 				BA593E8A1D0C830700C2EC1C /* AppDelegate.m */,
+				BA593E9D1D0C861C00C2EC1C /* PalindromDetector.h */,
+				BA593E9E1D0C861C00C2EC1C /* PalindromDetector.m */,
 				BA593E8C1D0C830700C2EC1C /* ViewController.h */,
 				BA593E8D1D0C830700C2EC1C /* ViewController.m */,
 				BA593E8F1D0C830700C2EC1C /* Main.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				BA593E8E1D0C830700C2EC1C /* ViewController.m in Sources */,
 				BA593E8B1D0C830700C2EC1C /* AppDelegate.m in Sources */,
+				BA593E9F1D0C861C00C2EC1C /* PalindromDetector.m in Sources */,
 				BA593E881D0C830700C2EC1C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
